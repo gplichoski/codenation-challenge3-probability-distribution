@@ -1,0 +1,32 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.3, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /home/guilherme/codenation/data-science-1
+collecting ... collected 5 items
+
+test_submit.py::test_q1 PASSED                                           [ 20%]
+test_submit.py::test_q2 PASSED                                           [ 40%]
+test_submit.py::test_q3 PASSED                                           [ 60%]
+test_submit.py::test_q4 PASSED                                           [ 80%]
+test_submit.py::test_q5 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+/home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:45
+  /home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:45: DeprecationWarning: Gdk.Cursor.new is deprecated
+    cursors.MOVE          : Gdk.Cursor.new(Gdk.CursorType.FLEUR),
+
+/home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:189
+  /home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:189: DeprecationWarning: Gtk.Widget.set_double_buffered is deprecated
+    self.set_double_buffered(True)
+
+/home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:346
+  /home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:346: DeprecationWarning: Gtk.Window.set_wmclass is deprecated
+    self.window.set_wmclass("matplotlib", "Matplotlib")
+
+/home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:375
+  /home/guilherme/.local/lib/python3.7/site-packages/matplotlib/backends/backend_gtk3.py:375: DeprecationWarning: Gtk.Widget.size_request is deprecated
+    size_request = child.size_request()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--- generated xml file: /home/guilherme/codenation/data-science-1/output.xml ---
+===================== 5 passed, 4 warnings in 0.83 seconds =====================
